@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imagePlaceHolderId"
+        android:layout_width="@dimen/image_placeholder_size"
+        android:layout_height="@dimen/image_placeholder_size"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/ownerNameId"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat_cairo_regular"
+        android:text="Abdul wahab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagePlaceHolderId"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/repoNameId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat_cairo_bold"
+        android:text="Metropolitan Project"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagePlaceHolderId"
+        app:layout_constraintTop_toBottomOf="@id/ownerNameId" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/repoDescriptionId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat_cairo_regular"
+        android:text="this is home exercise this is home exercise this is home exercise "
+        android:textSize="12sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagePlaceHolderId"
+        app:layout_constraintTop_toBottomOf="@id/repoNameId" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/repoLanguageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/language_bg"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/montserrat_cairo_regular"
+
+        android:text="Kotlin"
+        android:textSize="14sp"
+
+        app:layout_constraintStart_toEndOf="@+id/imagePlaceHolderId"
+        app:layout_constraintTop_toBottomOf="@id/repoDescriptionId" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/repoStarId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/star_icon"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/montserrat_cairo_regular"
+
+        android:text="5.53"
+        android:textSize="14sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/repoLanguageId"
+        app:layout_constraintTop_toBottomOf="@id/repoDescriptionId" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/devider_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repoLanguageId" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

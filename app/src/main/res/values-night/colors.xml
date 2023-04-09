@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="errorDesciptionColor">#ffffff</color>
+    <color name="language_color">#0027FF</color>
+    <color name="appbarBgColor">#222222</color>
+    <color name="some_thing_wrong_description">#F3F3F3</color>
+    <color name="some_thing_wrong">#E6E6E6</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HomeExercise</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="TradingFragment">Trending</string>
+
+    <string name="title">Trending</string>
+    <string name="retry">Retry</string>
+    <string name="something_went_wrong">Something went wrong..</string>
+    <string name="error_description">An alien is probably blocking your signal.</string>
+    <string name="BASE_URL">https://api.github.com/</string>
+</resources>

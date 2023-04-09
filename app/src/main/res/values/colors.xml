@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_color">#4CAF50</color>
+    <color name="separator_color">#CDC9C9</color>
+    <color name="devider_color">#EDEDED</color>
+    <color name="errorDesciptionColor">#ffffff</color>
+    <color name="colorGrey">#EFEFEF</color>
+    <color name="language_color">#0027FF</color>
+    <color name="appbarBgColor">#ffffff</color>
+    <color name="some_thing_wrong_description">#5C000000</color>
+    <color name="some_thing_wrong">#000000</color>
+
+</resources>
